@@ -1,0 +1,2024 @@
+{
+  "id": "2b91c0be-5acb-411d-ae28-13cfc2ba0872",
+  "version": "2.0",
+  "name": "GlobalBlueProject",
+  "url": " https://www.globalblue.com/",
+  "tests": [{
+    "id": "9398778b-20e4-473a-b784-22ed33146b9d",
+    "name": "Untitled",
+    "commands": [{
+      "id": "0e22729b-a884-4017-b59f-a98a20816cde",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.globalblue.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "11b561f4-7896-441f-beaf-7d96c3e9ac02",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8272a729-f56c-43f8-853f-0389c64e146d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.travel-pack .section_title",
+      "targets": [
+        ["css=.travel-pack .section_title", "css:finder"],
+        ["xpath=//div[7]/section/div/div/div/div/h2", "xpath:position"],
+        ["xpath=//h2[contains(.,'Travel Pack')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "44d190fd-4fc2-405e-bde6-6dca5253c019",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bfooter",
+      "targets": [
+        ["css=.bfooter", "css:finder"],
+        ["xpath=//footer/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ff1e1b-613c-475d-941b-197b322ba7cc",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=France",
+      "targets": [
+        ["linkText=France", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'France')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/france/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da3d64f7-f72d-43dc-b746-864b75c268aa",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=France",
+      "targets": [
+        ["linkText=France", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'France')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/france/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'France')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "39fe2c35-f5bd-4c19-b4d0-f63206abfc80",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Germany",
+      "targets": [
+        ["linkText=Germany", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Germany')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/germany/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Germany')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f23325d-8d56-4304-9c38-f82d0087a286",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Germany",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1ecaf3b6-2077-4dc1-bd69-cf63c7cfb02d",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Italy",
+      "targets": [
+        ["linkText=Italy", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Italy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/italy/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d1ec000-5943-4126-a18a-980df94c636c",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Italy",
+      "targets": [
+        ["linkText=Italy", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Italy')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/italy/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e0f7080-8c81-40ce-b46c-9142de85e00a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Spain",
+      "targets": [
+        ["linkText=Spain", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Spain')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/spain/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Spain')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ce6d3e21-065b-4773-bee2-5fbfecaa3907",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Spain",
+      "targets": [
+        ["linkText=Spain", "linkText"],
+        ["css=#footer-accordionp0 li:nth-child(4) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Spain')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp0']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/destinations/spain/')]", "xpath:href"],
+        ["xpath=//div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "490d941c-3ee3-4434-8f21-e7fe5b933aae",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All brands",
+      "targets": [
+        ["linkText=All brands", "linkText"],
+        ["css=#footer-accordionp1 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'All brands')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp1']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/brands/')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "037055c8-6d32-4785-9696-d891504c4ce1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=All brands",
+      "targets": [
+        ["linkText=All brands", "linkText"],
+        ["css=#footer-accordionp1 a", "css:finder"],
+        ["xpath=(//a[contains(text(),'All brands')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp1']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/brands/')])[37]", "xpath:href"],
+        ["xpath=//div[2]/div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d7f813b-55c7-4d2a-b62f-f7f1e6fac3f3",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer-accordionp2 li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'France')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/france/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ff0a9994-28a9-4e1c-a5fc-10400cbd4a38",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer-accordionp2 li:nth-child(1) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(1) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'France')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/france/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7b9e9d09-ca5d-4d2e-8a1c-61fd935ec497",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer-accordionp2 li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Germany')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/germany/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9105a0e3-a30f-4848-a84d-d15bc64a1e73",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer-accordionp2 li:nth-child(2) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(2) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Germany')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/germany/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4efb6488-a0aa-4dbf-acf5-a5128b4f8c59",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Singapore",
+      "targets": [
+        ["linkText=Singapore", "linkText"],
+        ["css=#footer-accordionp2 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Singapore')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/singapore/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09bd03e3-b629-42dd-83d0-52f00d3d24f0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=Singapore",
+      "targets": [
+        ["linkText=Singapore", "linkText"],
+        ["css=#footer-accordionp2 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Singapore')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/singapore/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9f2369c5-91fe-4e4e-abff-6ca8e3611ccf",
+      "comment": "",
+      "command": "click",
+      "target": "css=#footer-accordionp2 li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Spain')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/spain/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f6f8a94f-da91-426c-bfda-97da6c719cce",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer-accordionp2 li:nth-child(4) > a",
+      "targets": [
+        ["css=#footer-accordionp2 li:nth-child(4) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Spain')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp2']/div/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/discover/spain/')]", "xpath:href"],
+        ["xpath=//div[3]/div[3]/div/ul/li[4]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca074e39-664d-4b88-8cce-3b27cf5cf7e3",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=How to shop tax free",
+      "targets": [
+        ["linkText=How to shop tax free", "linkText"],
+        ["css=#footer-accordionp3 li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'How to shop tax free')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/how-to-shop-tax-free')])[12]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How to shop tax free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d50c3ba4-49e1-4472-a384-e01d6ecf67bf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=How to shop tax free",
+      "targets": [
+        ["linkText=How to shop tax free", "linkText"],
+        ["css=#footer-accordionp3 li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'How to shop tax free')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/how-to-shop-tax-free')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'How to shop tax free')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d118e3-4a25-4ee4-babd-1f73faed02da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=All shopping destinations",
+      "targets": [
+        ["linkText=All shopping destinations", "linkText"],
+        ["css=#footer-accordionp3 li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All shopping destinations')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/')])[13]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All shopping destinations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e141d34-a73b-491e-8496-b779d03dc9a9",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "linkText=All shopping destinations",
+      "targets": [
+        ["linkText=All shopping destinations", "linkText"],
+        ["css=#footer-accordionp3 li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'All shopping destinations')]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/')])[22]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'All shopping destinations')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "456203f1-f490-4b62-ab6c-c3d0bd783b54",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Refund Offices",
+      "targets": [
+        ["linkText=Refund Offices", "linkText"],
+        ["css=#footer-accordionp3 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Refund Offices')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/refund-points/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69fd6f7d-e3eb-46a4-b985-1e65e54e6dcf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=#footer-accordionp3 li:nth-child(3) > a",
+      "targets": [
+        ["css=#footer-accordionp3 li:nth-child(3) > a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Refund Offices')])[2]", "xpath:link"],
+        ["xpath=//div[@id='footer-accordionp3']/div/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/tax-free-shopping/refund-points/')])[2]", "xpath:href"],
+        ["xpath=//div[4]/div[3]/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "456a8849-a721-440d-ab69-b88d5fc5894c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-quick-links > li:nth-child(2) > a",
+      "targets": [
+        ["css=.footer-quick-links > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms and Conditions')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/legal-information/')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "21122793-5d4a-4200-9385-2a3c5ec9d443",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.footer-quick-links > li:nth-child(2) > a",
+      "targets": [
+        ["css=.footer-quick-links > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Terms and Conditions')]", "xpath:link"],
+        ["xpath=(//a[contains(@href, 'https://www.globalblue.com/legal-information/')])[16]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "26e663fe-6639-43fc-8a6f-42a7b1498554",
+      "comment": "",
+      "command": "click",
+      "target": "css=.footer-quick-links > li:nth-child(3) > a",
+      "targets": [
+        ["css=.footer-quick-links > li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Currency Rates')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/currency-choice/')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee199ea5-d794-4770-8d59-b16b3b654fba",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "index=0",
+      "targets": [
+        ["index=0"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c1a0b17-2ea8-46bb-997f-fbd25a671652",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "16e0d929-7f7f-49d2-97c8-921623a7fe71",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8bcb5a34-3c14-4a55-bfc0-3885d2cf34dc",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'ARS-Argentine Peso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4cdcaf36-50a4-42e4-ac85-38e583ae0ea2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'ARS-Argentine Peso')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0714ae6e-248d-4d4c-9cb3-25e1b2bd1874",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d41f7b-6349-46ce-b8cb-10ef6f48b982",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e10f03fc-6060-478b-8645-c57333b1a87e",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7e4f73b1-f981-40ae-96fc-a3897dd3a0d3",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9cc6556c-1dcf-435d-a1cc-47346485cbe9",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "733fc876-166a-458f-b0f0-2071e6644395",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Australia"
+    }, {
+      "id": "bc006e53-3a3a-4604-8805-3b36463ecb98",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8b0bf5b7-9e19-4ee8-b010-25339e2bb7ff",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'AUD-Australian Dollar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2c01b4b2-0027-4765-b583-6e2097e75c4e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'AUD-Australian Dollar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b98050b7-b518-4f5f-a35f-7bed6d870959",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "941cae7f-410c-4c04-9058-f2dbad535628",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f55f40c-5cd8-43ea-89d7-b24a144adb54",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Austria"
+    }, {
+      "id": "6598070d-faac-48fc-8136-d7a635675d28",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "34d8a785-296e-42f8-abbc-4ce3a8a21e3a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69af6ea0-7f8b-4c1d-91f8-a58049f49f6f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bada06d9-7f66-4ae9-8802-1108cf9650ec",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71b59ead-7dd2-4227-9714-495f1cb628b5",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Cyprus"
+    }, {
+      "id": "ebf49614-6f22-4ad1-b5db-d0ce5a169034",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0086572-734f-4975-82fb-7f108a346b0e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2d2faa9-5cd4-44c5-8180-fa7c84e6d4d2",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "47adeb42-b9e5-4f67-a275-d6fc8935dca0",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "381e9b65-cdd3-40f5-9ad1-0a2d5c5c4db6",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ca7ef326-f28c-4e1f-be70-f5619eda1e01",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Czech Republic"
+    }, {
+      "id": "9ec4841d-e48d-4269-b553-c91d3fd0a6d8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b81732d3-e047-48e0-a7db-224449624db8",
+      "comment": "",
+      "command": "click",
+      "target": "id=marginwrapper",
+      "targets": [
+        ["id=marginwrapper", "id"],
+        ["css=#marginwrapper", "css:finder"],
+        ["xpath=//div[@id='marginwrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='UpdatePanel1']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e0ee8150-390b-4af6-842e-02a3a53aa594",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'CZK-Czech Koruna')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "238e53f2-710d-4a20-9c0a-19329c588608",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7dc323f-f9c9-42e2-acf8-4d740e31cdfe",
+      "comment": "",
+      "command": "click",
+      "target": "id=li",
+      "targets": [
+        ["id=li", "id"],
+        ["xpath=//div[@id='li']", "xpath:attributes"],
+        ["xpath=//div[@id='ol']/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0d929212-1fa3-4b99-a470-503a3bd1b260",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4ec8dd1-55b9-48dd-975e-75ab303b2b4a",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Denmark"
+    }, {
+      "id": "981e4dae-f634-4099-b9af-50cadb2b76de",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a058b6af-961d-4520-bd53-b5459b462000",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30331be1-aeb2-4862-862a-f54b19ecc3a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'DKK-Danish Krone')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8e5d8d54-9294-4962-b26e-8340f3835dd0",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "391bb987-49a5-449d-8e75-d38a68355fc9",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4741c23-ecdb-4a4f-a731-84b7bec7a396",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=France"
+    }, {
+      "id": "f7c921d3-d07f-4bd2-ba5b-0dcde6883c00",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7178026-aa69-418c-9c26-d52b90a8b87d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1e230dc4-350a-417b-9add-5d15e350f334",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b49a131c-72b4-4ce5-89da-b926cc3d07e6",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "239af6c9-464c-4c53-a379-944221346900",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Germany"
+    }, {
+      "id": "11c74863-d428-4f27-abb2-25ec02584def",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5fda2167-342f-4a58-a4e0-977fd393d875",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5aaaf18b-3ba2-4e4e-9d4a-08842f969451",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "75323015-d4e9-4478-a0ed-1ea0c5e05b31",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ef8368bd-e998-47c7-b958-bc1a32f547cd",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2ab24e08-5f6b-42a5-881a-681fd2051979",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6625ceb6-76c2-407c-a753-0dc8f4053d00",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Italy"
+    }, {
+      "id": "46a2736b-ca01-4e1d-8ffb-3ce9788e2659",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ac1a4fb-87b6-4be1-ad5b-4798710aa023",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9bf993b9-934e-46ee-9639-9de235346e0a",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6955b7a8-7776-462f-8f69-0ae530c1b118",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "651f277c-dbb0-4870-9cec-7c822d367f00",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "52d3232a-0c79-497a-b42e-d19064ab58da",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Japan"
+    }, {
+      "id": "906a5b11-d53e-4ee4-9062-34932c4fe810",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c85a697a-3208-4268-b3c7-0ed9c2ac7fb8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'JPY-Japanese Yen')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6605e98f-1f46-4ce1-a993-ff2bb71a0ba3",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71414bdf-eaa3-4f45-a0a6-a9421cbbdd7b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f302815a-4607-48cf-a5cb-1927cd0fc57c",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7495081c-a5db-4484-bb2e-9723b16d734c",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Korea"
+    }, {
+      "id": "f8a4dbea-d208-45a1-a2fa-861ec64ba511",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "12d0d690-c428-4dd5-befc-c787b38099c7",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'KRW-Won')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9413dfe3-a1db-4af4-8cdd-0a7260e81ea0",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e244a27f-ec1d-46c8-bbfd-abe249c99ac6",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b94d52b4-5c70-486a-ab89-08fccfc4e84e",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eff13e7c-8c13-4929-bf40-628a1d8a69d4",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da5099e2-d1f2-4927-95fc-eab9030b133a",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Morocco"
+    }, {
+      "id": "e7618a96-5106-4782-a539-77ef1e156290",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f1e56102-ee13-450e-bff0-b50cb4982d4b",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'MAD-Moroccan Dirham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cb90253d-3e85-4175-8d8d-532a0026b359",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'MAD-Moroccan Dirham')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8eaf9330-d45f-4d6b-9515-df5845514635",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "972e50eb-d098-49f4-bbc2-e2aa35e6bff4",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9652976b-452d-48bd-a82b-545350d2e6d4",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Netherlands"
+    }, {
+      "id": "71afd25d-3e39-4c30-a98a-6dde0da1d679",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19587206-9885-4de7-85d9-9a9dd4b0ee22",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ea473617-975c-458e-9032-28f4adc9c7cf",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "674a4076-a874-42cd-8393-f7d762d4a337",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "60a814dc-98b8-49ca-9e79-0435bf28a4a3",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Portugal"
+    }, {
+      "id": "074c7417-634f-4b69-82c9-58f432ff26df",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dcc5cd0-5c42-4e2e-96c9-1555998d2c1a",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'EUR-Euro')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "14e98e62-0f46-48f8-bccb-6919a98f01ca",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "df809bec-ad3c-4497-bc62-cce7c63316ce",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2718b0cf-3e2c-4649-a238-29013e8747c7",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Singapore"
+    }, {
+      "id": "aea1b08a-dc51-4836-be4e-0f8ecd961312",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "972f74d5-27d0-4021-83bf-36afee771f47",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'SGD-Singapore Dollar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "867e0a2a-4e48-45eb-92ef-d2d3e2e71513",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3043afef-9fbe-45d2-9a87-255e9449fd2d",
+      "comment": "",
+      "command": "click",
+      "target": "id=marginwrapper",
+      "targets": [
+        ["id=marginwrapper", "id"],
+        ["css=#marginwrapper", "css:finder"],
+        ["xpath=//div[@id='marginwrapper']", "xpath:attributes"],
+        ["xpath=//div[@id='UpdatePanel1']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d49b5dbc-584c-4642-945e-e7a9570c6798",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "05e0c58d-f728-492f-8b0e-64065713ef10",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Sweden"
+    }, {
+      "id": "1dadb5ad-f11f-43ae-b734-700573fe5282",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "283fb43a-c758-4e45-b011-ecdc6dfc08eb",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'SEK-Swedish Krona')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "8262852c-bcfb-45f2-aa48-7b436e152269",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4dbb196-6e98-4f42-b54c-532414e890d9",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4dc1360e-f7a7-4e33-8e95-ecfc0f887c3f",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Switzerland"
+    }, {
+      "id": "394193f3-3c6d-49af-98ad-8b69b2a10eff",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "052db5ce-2ef7-416e-829a-777f75eff8a1",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'CHF-Swiss Franc')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c13481e4-12ba-4655-b98f-79f7b73b648a",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01602e6c-74ab-4576-ba33-76a80e60ad55",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Taiwan (China)"
+    }, {
+      "id": "b46ab6a6-8e3f-49f0-b719-0bb10246f5f8",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "66900a01-5708-4828-969c-5bd671382fd5",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"],
+        ["xpath=//select[contains(.,'TWD-New Taiwan Dollar')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "06932149-2c5d-4a2a-8932-c87fa34a1824",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "61d73479-acbd-4ce7-9a3f-04d1056a44f7",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b0043215-baa8-4054-805d-70e8545773eb",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=Turkey"
+    }, {
+      "id": "67353478-1138-4a23-b5e2-daba8b6b41ec",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "76f23f2e-fd4d-4ba6-ac92-03410a62c7ae",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e08f8b6e-4bfa-4f60-b3af-3cfa8af7534f",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78fdae34-676f-442c-b1e2-453e223b3585",
+      "comment": "",
+      "command": "click",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9f879db-1814-4b11-bd62-6e819379a6c8",
+      "comment": "",
+      "command": "select",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [],
+      "value": "label=United Kingdom"
+    }, {
+      "id": "74c56a11-9d60-4b71-a2ab-edf07ab888ba",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCountryOfPurchase",
+      "targets": [
+        ["id=drpDwnCountryOfPurchase", "id"],
+        ["name=drpDwnCountryOfPurchase", "name"],
+        ["css=#drpDwnCountryOfPurchase", "css:finder"],
+        ["xpath=//select[@id='drpDwnCountryOfPurchase']", "xpath:attributes"],
+        ["xpath=//div[@id='li']/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "371e9c63-f0c1-451a-b49a-1ac5397765fc",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnPurchaseCurrency",
+      "targets": [
+        ["id=drpDwnPurchaseCurrency", "id"],
+        ["name=drpDwnPurchaseCurrency", "name"],
+        ["css=#drpDwnPurchaseCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnPurchaseCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c20924a0-ac5a-457a-9d91-1391f8c3265d",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "id=drpDwnCreditCardCurrency",
+      "targets": [
+        ["id=drpDwnCreditCardCurrency", "id"],
+        ["name=drpDwnCreditCardCurrency", "name"],
+        ["css=#drpDwnCreditCardCurrency", "css:finder"],
+        ["xpath=//select[@id='drpDwnCreditCardCurrency']", "xpath:attributes"],
+        ["xpath=(//div[@id='li']/select)[3]", "xpath:idRelative"],
+        ["xpath=//div[3]/select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e8de6992-5b95-4c9c-96f5-94461e90894e",
+      "comment": "",
+      "command": "selectFrame",
+      "target": "relative=parent",
+      "targets": [
+        ["relative=parent"]
+      ],
+      "value": ""
+    }, {
+      "id": "414e1f9e-f782-494f-a327-27714c44ba2a",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=HELP & SUPPORT",
+      "targets": [
+        ["linkText=HELP & SUPPORT", "linkText"],
+        ["css=.footer-quick-links > li:nth-child(1) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'HELP & SUPPORT')]", "xpath:link"],
+        ["xpath=//a[contains(@href, 'https://www.globalblue.com/customer-services/contact-us/')]", "xpath:href"],
+        ["xpath=//section[2]/div/div/div/ul/li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'HELP & SUPPORT')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1a719231-4e05-4c86-ba0d-d909187aca9b",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.slds-p-around_large:nth-child(1) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(1) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "36cb0c63-ac03-4b0c-b92b-df13da49d8f2",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.slds-p-around_large:nth-child(1) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(1) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c4b0666-dd97-42f3-9735-9d369a166d16",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.slds-p-around_large:nth-child(1) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(1) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "509a5af0-da49-4cbd-8e5f-53122a99a93b",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.slds-p-around_large:nth-child(2) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(2) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item[2]/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//lightning-layout-item[2]/slot/a/li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "09efb33b-f77b-4a7c-93c0-4a08ba8be365",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.slds-p-around_large:nth-child(3) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(3) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item[3]/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//lightning-layout-item[3]/slot/a/li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0a73ce08-9f96-45ff-ac8d-2823fbff3da1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ui-widget:nth-child(1) .cb-section_column",
+      "targets": [
+        ["css=.ui-widget:nth-child(1) .cb-section_column", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[4]/div/div/div/div/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0146a45f-83ef-4d32-8621-7f4d6a543405",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.slds-p-around_large:nth-child(4) .my-menu-item-label",
+      "targets": [
+        ["css=.slds-p-around_large:nth-child(4) .my-menu-item-label", "css:finder"],
+        ["xpath=//div[@id='ServiceCommunityTemplate']/div[3]/div/c-cc-menu/div/ul/lightning-layout/slot/lightning-layout-item[4]/slot/a/li/div/div[2]", "xpath:idRelative"],
+        ["xpath=//lightning-layout-item[4]/slot/a/li/div/div[2]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "57203a2d-5b9c-495a-b770-42ed638fbd98",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["9398778b-20e4-473a-b784-22ed33146b9d"]
+  }],
+  "urls": ["https://www.globalblue.com/"],
+  "plugins": []
+}
